@@ -1,6 +1,6 @@
 # ProxyBear.io
 
-CNAME Cloaking is becoming a common solution to privacy restrictions imposed by the browsers (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc). According to the academic paper called "The CNAME of the Game:Large-scale Analysis of DNS-based TrackingEvasion" (https://arxiv.org/abs/2102.09301), CNAME Cloaking has the following potential risks:
+CNAME Cloaking is becoming a common solution to privacy restrictions imposed by the browsers (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc). According to the academic paper called "[The CNAME of the Game:Large-scale Analysis of DNS-based TrackingEvasion](https://arxiv.org/abs/2102.09301)", CNAME Cloaking has the following potential risks:
 
 * Transport Security (6.1)
 * Session Fixation (6.2.1)
@@ -17,3 +17,7 @@ In the Discussion (7), the authors discuss using a reverse proxy instead of CNAM
 # Try it Out
 
 # What's next?
+
+# References
+
+1. https://arxiv.org/abs/2102.09301
