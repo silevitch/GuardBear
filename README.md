@@ -27,6 +27,7 @@ In the Discussion (7), the authors introduce the idea of using a reverse proxy i
 
 # What's next?
 
+- [ ] Multi-domain support
 - [ ] Script that will build proxy_default.conf based on variables
 - [ ] Let's Encrypt support
 - [ ] End point to extend javascript created cookies
