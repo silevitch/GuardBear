@@ -30,6 +30,7 @@ In the Discussion (7), the authors introduce the idea of using a reverse proxy i
 - [ ] Script that will build proxy_default.conf based on variables
 - [ ] Let's Encrypt support
 - [ ] End point to extend javascript created cookies
+- [ ] K8s support
 - [ ] ipv6 support for anonymizing ip
 - [ ] Anonymize user-agents
 
