@@ -8,7 +8,7 @@ CNAME Cloaking is becoming a common solution to privacy restrictions imposed by 
 * Information Leakage (6.3)
 * Cookie Leaks (6.4)
 
-In the Discussion (7), the authors introduce the idea of using a reverse proxy instead of CNAME Cloaking. ProxyBear.io is a reverse proxy to help with privacy restrictions while still offering privacy & security protection to the end user.
+In the Discussion (7), the authors introduce the idea of using a reverse proxy instead of CNAME Cloaking. ProxyBear.io is a reverse proxy to help with browser restrictions while still offering privacy & security protection to the end user.
 
 # How it Works
 
