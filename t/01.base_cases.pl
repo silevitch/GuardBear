@@ -8,7 +8,7 @@ use Test::WWW::Mechanize;
 
 my $url = 'http://localhost:8080';
 my $echo_headers = $url . '/echo_headers';
-my $cookie_flag_prefix = 'pb_';
+my $cookie_flag_prefix = 'guardbear_';
 my $test_cookies = ['Test1', 'Test2'];
 my $cookie_domain = 'localhost';
 
