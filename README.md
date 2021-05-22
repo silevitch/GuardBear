@@ -19,7 +19,7 @@ In the Discussion (7), the authors introduce the idea of using a reverse proxy i
 GuardBear will take traffic destined for a 3rd party and do the following:
 
 * Only send cookies meant for that 3rd party
-* Control what information is sent to the 3rd party - Currently, client ip addresses and referring urls are masked
+* Mask identifying information - Currently, client ip address and referring url
 
 ![GuardBear Traffic Flow](https://github.com/silevitch/GuardBear/blob/main/GuardBear.png)
 
