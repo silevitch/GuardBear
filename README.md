@@ -21,7 +21,7 @@ GuardBear is a reverse proxy which will take traffic destined for a 3rd party an
 * Only send cookies meant for that 3rd party
 * Mask identifying information - Currently, client ip address and referring url
 
-![GuardBear Traffic Flow](https://github.com/silevitch/GuardBear/blob/main/GuardBear.png)
+![GuardBear Traffic Flow](https://raw.githubusercontent.com/silevitch/GuardBear/main/GuardBear.png)
 
 You will create a CNAME that is named *3rdparty.guardbear.example.com* that points to a GuardBear proxy that will forward traffic to *3rdparty.com*. On *example.com*, you will change the references to *3rdparty.com* to *3rdparty.guardbear.example.com*.
 
