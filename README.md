@@ -36,6 +36,8 @@ To try out the POC in the repository, you will first need to install:
 
 Then running "sudo docker-compose up" will install a GuardBear container along with an example 3rd party origin container. Both are based on openresty.
 
+Any requests to "http://localhost:8080/echo_headers" will go through GuardBear before being forwarded to a webserver. The webserver will output the headers that it received. This will allow you to test different scenarios.
+
 To run the test suite, you will need to install:
 
 * Perl
@@ -75,6 +77,7 @@ ok 16 - Content lacks "Referer: https://www.google.com/a/b/c/d"
 
 # What's next?
 
+- [ ] Instructions for running in production
 - [ ] Multi-domain support
 - [ ] Script that will build proxy_default.conf based on variables
 - [ ] Let's Encrypt support
