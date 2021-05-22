@@ -21,6 +21,8 @@ GuardBear will take traffic destined for a 3rd party and do the following:
 * Only send cookies meant for that 3rd party
 * Control what information is sent to the 3rd party - Currently, client ip addresses and referring urls are masked
 
+![GuardBear Traffic Flow](https://github.com/silevitch/GuardBear/blob/main/GuardBear.png)
+
 You will create a CNAME that is named "3rdparty.guardbear.example.com" that points to a GuardBear proxy that will forward traffic to "3rdparty.com". On "example.com", you will change the references to "3rdparty.com" to "3rdparty.guardbear.example.com".
 
 When GuardBear sees a cookie being set from "3rdparty.com", it will change it's domain to "3rdparty.guardbear.example.com" along with making a second cookie that is prefixed with "guardbear_". These new cookies tell GuardBear which cookies belong to the 3rd party. 
