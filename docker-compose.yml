@@ -11,7 +11,7 @@ services:
       
   webserver:
     image: openresty/openresty:alpine-apk 
-    container_name: webserver
+    container_name: 3rdparty_webserver
     volumes:
       - ./webserver_default.conf:/etc/nginx/conf.d/default.conf
     expose:
