@@ -75,6 +75,7 @@ ok 16 - Content lacks "Referer: https://www.google.com/a/b/c/d"
 
 * Try it out!
 * Star the project!
+* Start a discussion!
 * Leave feature requests or file bugs!
 
 # What's next?
