@@ -6,7 +6,7 @@ This open source project is currently a POC. Please show your interest by starri
 
 # Background
 
-If you manage a website or are a web based vendor, then you have struggled with the privacy restrictions imposed by the browsers (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc). CNAME Cloaking is becoming a popular work around to try. According to the academic paper called "[The CNAME of the Game:Large-scale Analysis of DNS-based TrackingEvasion](https://arxiv.org/abs/2102.09301)", cname cloaking has the following potential risks:
+If you manage a website or are a web based vendor, then you have struggled with the privacy restrictions imposed by the browsers (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc). Cname cloaking is becoming a popular work around to try. According to the academic paper called "[The CNAME of the Game:Large-scale Analysis of DNS-based TrackingEvasion](https://arxiv.org/abs/2102.09301)", cname cloaking has the following potential risks:
 
 * Transport Security (6.1)
 * Session Fixation (6.2.1)
@@ -14,7 +14,7 @@ If you manage a website or are a web based vendor, then you have struggled with 
 * Information Leakage (6.3)
 * Cookie Leaks (6.4)
 
-In the Discussion (7), the authors introduce the idea of using a reverse proxy instead of CNAME Cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
+In the Discussion (7), the authors introduce the idea of using a reverse proxy instead of cname cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
 
 # How it Works
 
@@ -25,7 +25,7 @@ GuardBear is a reverse proxy which will take traffic destined for a 3rd party an
 
 ![GuardBear Traffic Flow](https://raw.githubusercontent.com/silevitch/GuardBear/main/GuardBear.png)
 
-You will create a CNAME that is named *3rdparty.guardbear.example.com* that points to a GuardBear proxy that will forward traffic to *3rdparty.com*. On *example.com*, you will change the references to *3rdparty.com* to *3rdparty.guardbear.example.com*.
+You will create a cname that is named *3rdparty.guardbear.example.com* that points to a GuardBear proxy that will forward traffic to *3rdparty.com*. On *example.com*, you will change the references to *3rdparty.com* to *3rdparty.guardbear.example.com*.
 
 When GuardBear sees a cookie being set from *3rdparty.com*, it will change it's domain to *3rdparty.guardbear.example.com* along with making a second cookie that is prefixed with "guardbear_". These new cookies tell GuardBear which cookies belong to the 3rd party. 
 
