@@ -16,7 +16,7 @@ If you manage a website or are a web based vendor, then you have struggled with 
 
 In the Discussion (Section 7), the authors introduce the idea of using a reverse proxy instead of cname cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
 
-# How it Works
+# How GuardBear Works
 
 GuardBear is a reverse proxy which will take traffic destined for a 3rd party and do the following:
 
@@ -29,7 +29,7 @@ You will create a cname that is named *3rdparty.guardbear.example.com* that poin
 
 When GuardBear sees a cookie being set from *3rdparty.com*, it will change it's domain to *3rdparty.guardbear.example.com* along with making a second cookie that is prefixed with "guardbear_". These new cookies tell GuardBear which cookies belong to the 3rd party. 
 
-# Try it Out
+# Try GuardBear Out
 
 To try out the POC in the repository, you will first need to install:
 
@@ -71,7 +71,7 @@ ok 15 - Content contains "Referer: https://www.google.com/"
 ok 16 - Content lacks "Referer: https://www.google.com/a/b/c/d"
 ```
 
-# Supporting the Project
+# Supporting GuardBear
 
 You can support GuardBear in the following ways:
 
