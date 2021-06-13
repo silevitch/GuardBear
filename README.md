@@ -18,7 +18,7 @@ To avoid these security & privacy risks, the authors introduce the idea of using
 
 # How GuardBear Works
 
-As a reverse proxy, GuardBear will take traffic destined for a 3rd party and do the following:
+GuardBear is a reverse proxy that will take traffic destined for a 3rd party and do the following:
 
 * Only send cookies meant for that 3rd party
 * Mask identifying information (gdpr, ccpa, etc) - Currently, client ip address and referring url
