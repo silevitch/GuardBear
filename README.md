@@ -8,13 +8,13 @@ This open source project is currently a POC. Please show your interest by starri
 
 If you manage a website or are a web based vendor, then you have struggled with the privacy restrictions imposed by the browsers (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc). Cname cloaking is becoming a popular work around to try. According to the academic paper called "[The CNAME of the Game:Large-scale Analysis of DNS-based TrackingEvasion](https://arxiv.org/abs/2102.09301)", cname cloaking has the following potential risks:
 
-* Transport Security (6.1)
-* Session Fixation (6.2.1)
-* Cross-Site Scripting (6.2.2)
-* Information Leakage (6.3)
-* Cookie Leaks (6.4)
+* Transport Security (Section 6.1)
+* Session Fixation (Section 6.2.1)
+* Cross-Site Scripting (Section 6.2.2)
+* Information Leakage (Section 6.3)
+* Cookie Leaks (Section 6.4)
 
-In the Discussion (7), the authors introduce the idea of using a reverse proxy instead of cname cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
+In the Discussion (Section 7), the authors introduce the idea of using a reverse proxy instead of cname cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
 
 # How it Works
 
@@ -71,14 +71,18 @@ ok 15 - Content contains "Referer: https://www.google.com/"
 ok 16 - Content lacks "Referer: https://www.google.com/a/b/c/d"
 ```
 
-# How can I help?
+# Supporting the Project
+
+You can support GuardBear in the following ways:
 
 * Try it out!
 * Star the project!
 * Start a discussion!
 * Leave feature requests or file bugs!
 
-# What's next?
+# Roadmap
+
+If there is community interest, I will be adding the following:
 
 - [ ] Instructions for running in production
 - [ ] Multi-domain support
