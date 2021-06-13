@@ -2,7 +2,7 @@
 
 GuardBear helps with browser restrictions (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc) while still offering privacy & security protection to the end user. GuardBear is a safer solution compared to cname cloaking.
 
-This open source project is currently a POC. Please show your interest by starring the project, trying it out or [starting a discussion](https://github.com/silevitch/GuardBear/discussions)! 
+This open source project is currently a POC. Please show your interest by starring the project, [trying it out](https://github.com/silevitch/GuardBear/blob/main/README.md#try-it-out) or [starting a discussion](https://github.com/silevitch/GuardBear/discussions)! 
 
 # Background
 
