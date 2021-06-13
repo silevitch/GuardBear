@@ -14,7 +14,7 @@ If you manage a website or are a web based vendor, then you have struggled with 
 * Information Leakage (Section 6.3)
 * Cookie Leaks (Section 6.4)
 
-To avoid these security & privacy risks, the authors introduce the idea of using a reverse proxy instead of cname cloaking (Section 7). GuardBear is an open source project that implements that idea.
+To avoid these security & privacy risks, the authors introduce the idea of using a reverse proxy instead of cname cloaking (Section 7). GuardBear is an open source project that implements this idea.
 
 # How GuardBear Works
 
