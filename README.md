@@ -2,7 +2,7 @@
 
 GuardBear helps with browser restrictions (ITP / Safari, ETP / FireFox, Chrome dropping 3rd party cookies, etc) while still offering privacy & security protection to the end user. GuardBear is a safer solution compared to cname cloaking.
 
-This open source project is currently a POC. Please show your interest by starring the project, [trying it out](https://github.com/silevitch/GuardBear/blob/main/README.md#try-it-out) or [starting a discussion](https://github.com/silevitch/GuardBear/discussions)! 
+This open source project is currently a Proof-Of-Concept (POC). Please show your interest by starring the project, [trying it out](https://github.com/silevitch/GuardBear/blob/main/README.md#try-it-out) or [starting a discussion](https://github.com/silevitch/GuardBear/discussions)! 
 
 # Background
 
@@ -14,11 +14,11 @@ If you manage a website or are a web based vendor, then you have struggled with 
 * Information Leakage (Section 6.3)
 * Cookie Leaks (Section 6.4)
 
-In the Discussion (Section 7), the authors introduce the idea of using a reverse proxy instead of cname cloaking. GuardBear is a reverse proxy to help with browser restrictions while addressing the security & privacy concerns.
+To avoid these security & privacy risks, the authors introduce the idea of using a reverse proxy instead of cname cloaking (Section 7). GuardBear is an open source project that implements that idea.
 
 # How GuardBear Works
 
-GuardBear is a reverse proxy which will take traffic destined for a 3rd party and do the following:
+As a reverse proxy, GuardBear will take traffic destined for a 3rd party and do the following:
 
 * Only send cookies meant for that 3rd party
 * Mask identifying information (gdpr, ccpa, etc) - Currently, client ip address and referring url
@@ -82,7 +82,7 @@ You can support GuardBear in the following ways:
 
 # Roadmap
 
-If there is community interest, I will be adding the following:
+If there is community interest, the following will be added next:
 
 - [ ] Instructions for running in production
 - [ ] Multi-domain support
@@ -95,4 +95,5 @@ If there is community interest, I will be adding the following:
 
 # References
 
-1. https://arxiv.org/abs/2102.09301
+1. Academic article that discusses cname cloaking risks - https://arxiv.org/abs/2102.09301
+2. Blog post that dicusses ITP and mentions reverse proxy as a possible solution - https://www.simoahava.com/analytics/itp-2-1-and-web-analytics/
