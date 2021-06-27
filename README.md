@@ -4,7 +4,7 @@ GuardBear helps with browser restrictions (ITP / Safari, ETP / FireFox, Chrome d
 
 This open source project is currently a Proof-Of-Concept (POC). Please show your interest by starring the project, [trying it out](https://github.com/silevitch/GuardBear/blob/main/README.md#try-it-out) or [starting a discussion](https://github.com/silevitch/GuardBear/discussions)!
 
-If you don't have a GitHub account and want to talk, please connect with me on [LinkedIn](https://www.linkedin.com/in/silevitch/) (please mention your interest in GuardBear when you connect) or email me - guardbear&#64;silevitch&#46;com
+If you don't have a GitHub account and want to talk, please connect with me on [LinkedIn](https://www.linkedin.com/in/silevitch/) (please mention your interest in GuardBear when you connect) or email me - guardbear&#8203;&#8203;&#8203;&#64;&#8203;&#8203;&#8203;silevitch&#8203;&#8203;&#8203;&#46;&#8203;&#8203;&#8203;com
 
 I'm more than happy to discuss with you the risks of cname cloaking or help you try out GuardBear.
 
